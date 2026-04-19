@@ -1,0 +1,75 @@
+# ===============================
+# Build outputs
+# ===============================
+bin/
+obj/
+out/
+
+# ===============================
+# Visual Studio
+# ===============================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===============================
+# Rider / JetBrains
+# ===============================
+.idea/
+*.sln.iml
+
+# ===============================
+# ASP.NET Core / publish output
+# ===============================
+publish/
+wwwroot/lib/
+
+# ===============================
+# NuGet
+# ===============================
+*.nupkg
+*.snupkg
+**/packages/
+.nuget/
+project.assets.json
+project.nuget.cache
+*.nuget.cache
+
+# ===============================
+# Logs
+# ===============================
+*.log
+logs/
+
+# ===============================
+# Windows / system files
+# ===============================
+Thumbs.db
+Desktop.ini
+
+# ===============================
+# Environment / secrets
+# ===============================
+appsettings.*.json
+*.env
+
+# (optional: only if you use user secrets locally)
+secrets.json
+
+# ===============================
+# dotnet test results
+# ===============================
+TestResults/
+*.trx
+
+# ===============================
+# EF Core migrations build artifacts
+# ===============================
+Migrations/*Designer.cs
+
+# ===============================
+# macOS
+# ===============================
+.DS_Store
